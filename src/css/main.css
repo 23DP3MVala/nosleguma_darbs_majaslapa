@@ -1,0 +1,19 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+body {
+    background-color: #c5efcb;
+    margin: 0;
+    color: #020402;
+}
+
+header {
+    display: flex;
+    background-color: #758173;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+}
