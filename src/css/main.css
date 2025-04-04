@@ -1,19 +1,40 @@
 * {
     scroll-behavior: smooth;
-    scroll-padding-top: 50px;
+    scroll-padding-top: 65px;
 }
 
 body {
     background-color: #c5efcb;
     margin: 0;
     color: #020402;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 21px;
 }
 
 header {
     display: flex;
-    background-color: #758173;
+    background-color: #a9c5a0;
     position: fixed;
     width: 100%;
+    height: 65px;
     align-items: center;
     z-index: 1000;
+    top: 0;
+    font-weight: 600;
+}
+
+a {
+    color: #020402;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+footer { 
+    background-color: #a9c5a0;
+    height: 65px;
+    text-align: center;
+}
+
+#copy {
+    align-items: center;
 }
