@@ -21,6 +21,8 @@ header {
     z-index: 1000;
     top: 0;
     font-weight: 600;
+    border-bottom-style: solid;
+    border-bottom-color: #758173;
 }
 
 a {
@@ -29,12 +31,39 @@ a {
     padding: 0 15px;
 }
 
+.hero_img {
+    background-image: url("../img/hero.jpg");
+    height: 854px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+h2 {
+    margin: 0;
+    color: #020402;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    text-wrap: nowrap;
+}
+
+h1 {
+    margin: 0;
+    color: #020402;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
 footer { 
     background-color: #a9c5a0;
     height: 65px;
     text-align: center;
-}
-
-#copy {
-    align-items: center;
+    border-top-style: solid;
+    border-top-color: #758173;
 }
