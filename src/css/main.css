@@ -33,7 +33,7 @@ a {
 
 .hero_img {
     background-image: url("../img/hero.jpg");
-    height: 854px;
+    height: calc(100vh - 65px);
     background-position: center;
     background-size: cover;
     padding-top: 65px;
@@ -58,6 +58,13 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #020402;
+    margin: 0;
 }
 
 footer { 
