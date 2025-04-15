@@ -6,9 +6,10 @@
 body {
     background-color: #c5efcb;
     margin: 0;
+    padding: 0;
     color: #020402;
     font-family: "Anonymous Pro", monospace;
-    font-size: 21px;
+    font-size: 36px;
 }
 
 header {
@@ -31,6 +32,12 @@ a {
     padding: 0 15px;
 }
 
+.logo {
+    height: 55px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
 .hero_img {
     background-image: url("../img/hero.jpg");
     height: calc(100vh - 65px);
@@ -42,10 +49,6 @@ a {
 h2 {
     margin: 0;
     color: #020402;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 36px;
     text-wrap: nowrap;
 }
@@ -60,12 +63,75 @@ h1 {
     font-size: 60px;
 }
 
+.hero_text {
+    top: 40%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+}
+
 hr {
     border: none;
     height: 2px;
     background-color: #020402;
     margin: 0;
 }
+
+#informacija {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_h2 {
+    text-align: center;
+    padding-top: 173px;
+}
+
+.piezimes {
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+}
+
+.piezime {
+    width: 200px;
+    text-align: left;
+    position: relative;
+}
+
+.piezime img {
+    width: 350px;
+    transform-origin: center;
+}
+
+.saturs {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    font-size: 14px;
+}
+
+.piezime_par {
+    transform: rotate(-15deg);
+}
+
+.piezime_motiv {
+    transform: rotate(5deg);
+}
+
+.lejup_h2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.lejup {
+    margin: 0;
+    color: #020402;
+    font-size: 36px;
+    text-wrap: nowrap;
+    padding: 85px 0 0 50px;
+}
+
 
 footer { 
     background-color: #a9c5a0;
