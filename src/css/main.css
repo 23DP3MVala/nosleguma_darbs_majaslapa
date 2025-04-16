@@ -84,19 +84,19 @@ hr {
 
 .info_h2 {
     text-align: center;
-    padding-top: 173px;
+    padding: 80px;
 }
 
 .piezimes {
     display: flex;
     justify-content: center;
-    gap: 260px;
+    gap: 80px;
 }
 
 .piezime {
     width: 200px;
-    text-align: left;
     position: relative;
+    width: fit-content;
 }
 
 .piezime img {
@@ -107,8 +107,9 @@ hr {
 .saturs {
     position: absolute;
     top: 60px;
-    left: 30px;
-    font-size: 14px;
+    left: 40px;
+    right: 30px;
+    font-size: 19px;
 }
 
 .piezime_par {
@@ -119,9 +120,13 @@ hr {
     transform: rotate(5deg);
 }
 
+.info_hr {
+    margin-top: 32px;
+}
+
 .lejup_h2 {
     text-align: center;
-    padding-top: 80px;
+    padding: 80px;
 }
 
 .lejup {
@@ -129,14 +134,24 @@ hr {
     color: #020402;
     font-size: 36px;
     text-wrap: nowrap;
-    padding: 85px 0 0 50px;
+    padding-left: 50px;
+    text-decoration: underline;
 }
 
+.lejup_txt {
+    padding-left: 50px;
+}
 
 footer { 
     background-color: #a9c5a0;
-    height: 65px;
     text-align: center;
     border-top-style: solid;
     border-top-color: #758173;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copy {
+    margin: 0;
+    padding-top: 0;
 }
