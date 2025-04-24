@@ -90,26 +90,25 @@ hr {
 .piezimes {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .piezime {
-    width: 200px;
     position: relative;
     width: fit-content;
 }
 
 .piezime img {
-    width: 350px;
-    transform-origin: center;
+    width: 550px;
 }
 
 .saturs {
     position: absolute;
-    top: 60px;
-    left: 40px;
-    right: 30px;
-    font-size: 19px;
+    top: 130px;
+    left: 70px;
+    right: 70px;
+    font-size: 23px;
 }
 
 .piezime_par {
@@ -121,7 +120,7 @@ hr {
 }
 
 .info_hr {
-    margin-top: 32px;
+    margin-top: 56px;
 }
 
 .lejup_h2 {
