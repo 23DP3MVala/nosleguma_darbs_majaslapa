@@ -10,6 +10,7 @@ body {
     color: #020402;
     font-family: "Anonymous Pro", monospace;
     font-size: 36px;
+    width: fit-content;
 }
 
 header {
