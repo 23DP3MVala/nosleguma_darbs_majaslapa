@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
     scroll-padding-top: 65px;
+    outline: 1px solid red;
 }
 
 body {
@@ -42,7 +43,6 @@ a {
 .hero_img {
     background-image: url("../img/hero.jpg");
     height: calc(100vh - 65px);
-    background-position: center;
     background-size: cover;
     padding-top: 65px;
 }
@@ -78,6 +78,28 @@ hr {
     margin: 0;
 }
 
+#poga_par {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: #c6dec6;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.par_mums{
+    margin: 0;
+    font-family: "Anonymous Pro", monospace;
+}
+
+.uz_leju {
+    height: 70px;
+}
+
 #informacija {
     display: flex;
     flex-direction: column;
@@ -91,7 +113,7 @@ hr {
 .piezimes {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 95px;
     flex-wrap: wrap;
 }
 
@@ -101,7 +123,7 @@ hr {
 }
 
 .piezime img {
-    width: 550px;
+    width: 555px;
 }
 
 .saturs {
