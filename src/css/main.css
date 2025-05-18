@@ -10,7 +10,7 @@ body {
     padding: 0;
     color: #020402;
     font-family: "Anonymous Pro", monospace;
-    font-size: 36px;
+    font-size: 34px;
     width: fit-content;
 }
 
@@ -50,7 +50,7 @@ a {
 h2 {
     margin: 0;
     color: #020402;
-    font-size: 38px;
+    font-size: 42px;
     text-wrap: nowrap;
 }
 
@@ -146,15 +146,10 @@ hr {
     margin-top: 56px;
 }
 
-.lejup_h2 {
-    text-align: center;
-    padding: 80px;
-}
-
 .lejup {
     margin: 0;
     color: #020402;
-    font-size: 36px;
+    font-size: 34px;
     text-wrap: nowrap;
     padding-left: 50px;
     text-decoration: underline;
@@ -163,6 +158,15 @@ hr {
 .lejup_txt {
     padding-left: 50px;
     text-wrap: wrap;
+}
+
+.cel_text {
+    margin: 0;
+    padding-left: 50px;
+}
+
+#izvele {
+    margin-left: 50px;
 }
 
 footer { 
