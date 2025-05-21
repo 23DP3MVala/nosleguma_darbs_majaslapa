@@ -10,7 +10,7 @@ body {
     padding: 0;
     color: #020402;
     font-family: "Anonymous Pro", monospace;
-    font-size: 34px;
+    font-size: 32px;
     width: fit-content;
 }
 
@@ -166,6 +166,22 @@ hr {
 }
 
 #izvele {
+    margin-left: 50px;
+}
+
+.palaist {
+    margin-left: 50px;
+    color: #ff3300;
+}
+
+.pal_link {
+    padding: 0;
+    color: #ff3300;
+    text-decoration: underline;
+    font-size: 34px;
+}
+
+#pievienot {
     margin-left: 50px;
 }
 
