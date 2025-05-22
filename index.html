@@ -69,6 +69,7 @@
         <h2 class="info_h2">Lietotāja ceļvedis</h2>
         <p class="cel_text">Izvēlies, ko vēlies darīt:</p>
         <select id="izvele">
+            <option value="">-- Lūdzu izvēlies --</option>
             <option value="pievienot">Pievienot piezīmi</option>
             <option value="skatit">Apskatīt piezīmi</option>
             <option value="filtret">Filtrēt piezīmes</option>
@@ -76,23 +77,75 @@
             <option value="dzest">Dzēst piezīmi</option>
         </select>
 
-        <div id="pievienot">
-            <p>Pieivenot piezīmi ir iespējams izvēloties pirmo opciju</p>
-
-            <p>Lai izveidotu piezīmi, Jums prasīs ievadīt piezīmes virsrakstu un saturu</p>
-
-            <p>Programma paziņos par to, ka pizīme ir saglabāta</p>
+        <div id="pievienot" class="saturi saturini">
+            <div>
+                <p>Pieivenot jaunu piezīmi ir iespējams galvenajā logā izvēloties pirmo opciju - "Pievienot piezīmi"</p>
+                <img src="/src/img/galvena.png">
+            </div>
+            <div>
+                <p>Lai izveidotu piezīmi ir nepieciešams ievadīt piezīmes virsrakstu un saturu</p>
+                <img src="/src/img/pievienot2.png">
+            </div>
+            <div>
+                <p>Programma izvadīs paziņojumu par to, ka pizīme ir saglabāta</p>
+                <img src="/src/img/pievienot3.png">
+            </div>
         </div>
-        <div id="skatit">
-            <p>Apskatīt esošas piezīmes ir iespējams izvēloties otro opciju</p>
-
-            <p>Apskatīt noteikto piezīmi ir iespējams ievadot konkrētās pizīmes kārtas numuru </p>
-            <!-- (Nr)? -->
-
-            <p>Kad tiks izvadīta piezīme, ir iespējams redzēt tās virsrakstu, saturu un izveides datumu. Lai izietu ir jāievada 1</p>
+        <div id="skatit" class="saturi saturini">
+            <div>
+                <p>Apskatīt esošās piezīmes ir iespējams galvenajā logā izvēloties otro opciju - "Apskatīt piezīmes"</p>
+                <img src="/src/img/galvena.png">
+            </div>
+            <div>
+                <p>Apskatīt noteikto piezīmi ir iespējams ievadot konkrētās piezīmes kārtas numuru (#)</p>
+                <img src="/src/img/skatit2.png">
+            </div>
+            <div>
+                <p>Kad tiks izvadīta piezīme, ir iespējams redzēt tās virsrakstu, saturu un izveides datumu.</p>
+                <img src="/src/img/skatit3.png">
+            </div>
         </div>
-        <div id="filtret">
-            <p>Lai varētu filtrēt sākuma ekrānā ir jāizvēlās "Apskatīt piezīmes"</p>
+        <div id="filtret" class="saturi saturini">
+            <div>
+                <p>Filtrēt ir iespējams galvenajā logā izvēloties "Apskatīt piezīmes" -> "Filtrēt vai kārtot" -> "Filtrēt pēc datuma"</p>
+                <img src="/src/img/fk1.png">
+            </div>
+            <div>
+                <p>Ievadi sākuma un beigu datumus</p>
+                <img src="/src/img/filtret2.png">
+            </div>
+            <div>
+                <p>Kad ir izvadītas piezīmes, tās ir iespējams apskatīt vai atgriezties uz galveno logu</p>
+                <img src="/src/img/filtret3.png">
+            </div>
+        </div>
+        <div id="kartot" class="saturi saturini">
+            <div>
+                <p>Kārtot ir iespējams galvenajā logā izvēloties "Apskatīt piezīmes" -> "Filtrēt vai kārtot" -> "Kārtot"</p>
+                <img src="/src/img/fk1.png">
+            </div>
+            <div>
+                <p>Izvēlies kā kārtot piezīmes</p>
+                <img src="/src/img/kartot2.png">
+            </div>
+            <div>
+                <p>Kad ir izvadītas piezīmes, tās ir iespējams apskatīt vai atgriezties uz galveno logu</p>
+                <img src="/src/img/kartot3.png">
+            </div>
+        </div>
+        <div id="dzest" class="saturi saturini">
+            <div>
+                <p>Dzēst esošu piezīmi ir iespējams galvenajā logā izvēloties trešo opciju - "Dzēst piezīmi"</p>
+                <img src="/src/img/galvena.png">
+            </div>
+            <div>
+                <p>Ievadi piezīmes numuru (#) lai izdzēstu</p>
+                <img src="/src/img/dzest2.png">
+            </div>
+            <div>
+                <p>Programma izvadīs paziņojumu par to, ka pizīme ir izdzēsta</p>
+                <img src="/src/img/dzest3.png">
+            </div>
         </div>
     </section>
     <footer>

@@ -163,6 +163,7 @@ hr {
 .cel_text {
     margin: 0;
     padding-left: 50px;
+    margin-bottom: 10px;
 }
 
 #izvele {
@@ -181,16 +182,29 @@ hr {
     font-size: 34px;
 }
 
-#pievienot {
-    margin-left: 50px;
+#izvele {
+    background-color: #a9c5a0;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
 }
 
-#skatit{
-    margin-left: 50px;
+.saturi {
+    display: none;
 }
 
-#filtret{
+.saturini {
     margin-left: 50px;
+    gap: 25px;
+}
+
+.saturi div {
+    width: 590px;
+}
+
+#celvedis {
+    margin-bottom: 25px;
 }
 
 footer { 
