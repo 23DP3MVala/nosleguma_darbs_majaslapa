@@ -259,18 +259,6 @@ footer {
   }
 
   h2{
-    font-size: 18px;
+    font-size: 32px;
   }
-
-  .piezime img {
-    width: 355px;
-}
-
-.saturs {
-    position: absolute;
-    top: 130px;
-    left: 70px;
-    right: 70px;
-    font-size: 14px;
-}
 }
