@@ -26,9 +26,14 @@ header {
     font-weight: 600;
     border-bottom-style: solid;
     border-bottom-color: #758173;
+    justify-content: space-between;
 }
 
-a {
+nav {
+    display: flex;
+}
+
+nav a {
     color: #020402;
     text-decoration: none;
     padding: 0 15px;
@@ -36,8 +41,13 @@ a {
 
 .logo {
     height: 55px;
-    margin-left: auto;
-    margin-right: 5px;
+    margin: 7px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .hero_img {
@@ -85,7 +95,7 @@ hr {
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    background-color: #c6dec6;
+    background-color: transparent;
     border: none;
     font-size: 25px;
     cursor: pointer;
@@ -219,4 +229,48 @@ footer {
 .copy {
     margin: 0;
     padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background-color: #a9c5a0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    gap: 15px;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    margin: 7px;
+  }
+
+  a:hover {
+    background-color: #758173;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  .piezime img {
+    width: 355px;
+}
+
+.saturs {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    right: 70px;
+    font-size: 14px;
+}
 }
